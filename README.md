@@ -16,6 +16,17 @@ discipline**: instead of claiming edges, it measures them end to end on realisti
 
 ---
 
+## Repository contents
+
+This is a **documentation-only review repository**. Start here:
+
+- **[docs/METHODOLOGY.md](docs/METHODOLOGY.md)** — how the system works end to end (the evidence ladder, verdict taxonomy, the retention lens, infrastructure, safety) at a review-appropriate level.
+- **[docs/LEARNING_ROADMAP.md](docs/LEARNING_ROADMAP.md)** — the structured theory + tech path behind the work, with target-role mapping and canonical references.
+
+Source code, datasets, and the unpublished manuscripts are kept private (see [Why there's no source code here](#why-theres-no-source-code-here)).
+
+---
+
 ## What's built
 
 **Execution & MEV measurement.** A read-only pipeline that reconstructs on-chain situations, replays
