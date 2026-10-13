@@ -18,12 +18,16 @@ discipline**: instead of claiming edges, it measures them end to end on realisti
 
 ## Repository contents
 
-This is a **documentation-only review repository**. Start here:
+A **review repository**: documentation, the research preprints, and one of the books. Start here:
 
-- **[docs/METHODOLOGY.md](docs/METHODOLOGY.md)** — how the system works end to end (the evidence ladder, verdict taxonomy, the retention lens, infrastructure, safety) at a review-appropriate level.
+- **[docs/METHODOLOGY.md](docs/METHODOLOGY.md)** — how the system works end to end (the evidence ladder, verdict taxonomy, the retention lens, infrastructure, safety).
 - **[docs/LEARNING_ROADMAP.md](docs/LEARNING_ROADMAP.md)** — the structured theory + tech path behind the work, with target-role mapping and canonical references.
+- **[papers/](papers)** — the two research preprints:
+  - *Paper 1 — Fork-Based DeFi Execution Research* (read-only methodology + honest FOUND/CLOSED verdicts).
+  - *Paper 2 — Execution Intelligence: Latency, Competition, and Value Retention* (the `R = f(d, λ, h)` model).
+- **[books/](books)** — *Execution Intelligence II: Price Discovery and Market Leadership*.
 
-Source code, datasets, and the unpublished manuscripts are kept private (see [Why there's no source code here](#why-theres-no-source-code-here)).
+Source code and datasets remain private (see [Why there's no source code here](#why-theres-no-source-code-here)).
 
 ---
 
@@ -97,21 +101,21 @@ negative-results methodology, thorough technical writing and documentation.
 
 ## Research & writing
 
-Two manuscripts are in preparation from this work:
+Two research preprints from this work are included in **[papers/](papers)**:
 
-1. Fork-based DeFi execution system classifying edges with net PnL.
-2. **An empirical model** relating competition, latency advantage, and concentration to the value an operator actually retains.
+1. **Fork-Based DeFi Execution Research** — a read-only methodology that drives every edge to a FOUND/CLOSED verdict with net-of-cost grading.
+2. **Execution Intelligence: Latency, Competition, and Value Retention** — an empirical model `R = f(d, λ, h)` relating competition, latency, and infrastructure concentration to retained value.
 
-Both are accompanied by a literature review, a reproducibility manifest, and an internal
-research-integrity and legal/IP review process.
+Both are accompanied by a literature review and a reproducibility manifest, and are **preprints** (not yet peer-reviewed).
 
 ---
 
 ## Why there's no source code here
 
-The implementation and the unpublished manuscripts are kept private — the code as a **trade secret**,
-the papers pending an **internal legal/IP review**. This public page therefore describes the work at a
-level that conveys scope and skill **without disclosing the private edge or unpublished results**.
+The research papers and one book are included for review; the **implementation (source code) is kept
+private as a trade secret**, as are the datasets, infrastructure details, and the internal edge
+catalog. This repository conveys the research and framework **without disclosing the private
+execution edge**.
 
 Deeper technical discussion, a code walkthrough, or the draft manuscripts can be shared **privately,
 on request**, under an appropriate confidentiality understanding.
@@ -125,5 +129,5 @@ on request**, under an appropriate confidentiality understanding.
 - GitHub: [@prakashvishnoi](https://github.com/prakashvishnoi)
 - Contact: prakashvishnoi63@gmail.com 
 
-> This repository intentionally contains documentation only. No source code, datasets, private
-> keys, infrastructure details, or unpublished research results are published here.
+> This repository contains documentation, research preprints, and selected writing. No source code,
+> datasets, private keys, infrastructure details, or the internal edge catalog are published here.
